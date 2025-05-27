@@ -11,3 +11,21 @@ python Jour21/cnn_chien_chat.py
 ```
 
 Le script télécharge automatiquement le jeu de données, construit un CNN simple puis lance l'entraînement et l'évaluation.
+
+## Classification et génération de texte
+
+Le fichier `transformers_text.py` montre comment utiliser la bibliothèque `transformers` de Hugging Face pour faire de la classification de texte et de la génération de texte.
+
+Installez d'abord la bibliothèque :
+
+```bash
+pip install transformers
+```
+
+Puis lancez le script :
+
+```bash
+python transformers_text.py
+```
+
+Les modèles pré-entraînés seront téléchargés lors de la première exécution.
